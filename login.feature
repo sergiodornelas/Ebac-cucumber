@@ -18,7 +18,7 @@
             Então o acesso ao sistema será bloqueado
 
             Cenário: Usuário inexistente
-            Dado que eu esteja matriculado no curso EBAC
+            Dado que eu não esteja matriculado no curso EBAC
             Quando eu inserir o email "parangole@gmail.com"
             E a senha "@@@@"
             Então deve exibir uma caixa de alerta contendo: "usuário inexistente"
